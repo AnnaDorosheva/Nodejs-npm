@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaDorosheva/Nodejs-npm.git"
+  },
+  "author": "Anna Dorosheva <annador@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaDorosheva/Nodejs-npm/issues"
+  },
+  "homepage": "https://github.com/AnnaDorosheva/Nodejs-npm#readme",
+  "dependencies": {
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5"
+  }
+}
